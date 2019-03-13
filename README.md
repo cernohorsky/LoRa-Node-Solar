@@ -2,7 +2,7 @@
 
 It uses the MCP73871 - USB/Solar panel charger and very nice TPS63031 Buck-Boost Converter. Main benefits of the board is small size and possibility to run literally forever from one small single cell LiPo battery.
 
-ToDo:<br>
+<b>ToDo:</b><br>
 Change ground symbols<br>
 Create BOM<br>
 
