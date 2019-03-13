@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Arduino_Mini-cache
+LIBS:LoRaNode-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Arduino_Mini-rescue:RFM95W-868S2-RESCUE-Arduino_Mini U1
+L LoRaNode-rescue:RFM95W-868S2-RESCUE-Arduino_Mini-Arduino_Mini-rescue U1
 U 1 1 5A1D2B73
 P 9100 5000
 F 0 "U1" H 9100 5678 50  0000 C CNN
@@ -34,7 +34,7 @@ Text Label 8600 4800 2    60   ~ 0
 Text Label 8600 5000 2    60   ~ 0
 10(**/SS)
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR09
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR09
 U 1 1 5A1D2CAF
 P 9100 4450
 F 0 "#PWR09" H 9100 4300 50  0001 C CNN
@@ -67,7 +67,7 @@ NoConn ~ 9600 5100
 Text Label 10350 4700 0    60   ~ 0
 ANT
 $Comp
-L Arduino_Mini-rescue:C-RESCUE-Arduino_Mini C1
+L LoRaNode-rescue:C-RESCUE-Arduino_Mini-Arduino_Mini-rescue C1
 U 1 1 5A1D4CFC
 P 9900 4900
 F 0 "C1" H 10015 4946 50  0000 L CNN
@@ -78,7 +78,7 @@ F 3 "" H 9900 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_Mini-rescue:C-RESCUE-Arduino_Mini C2
+L LoRaNode-rescue:C-RESCUE-Arduino_Mini-Arduino_Mini-rescue C2
 U 1 1 5A1D4D32
 P 10350 4900
 F 0 "C2" H 10465 4946 50  0000 L CNN
@@ -89,7 +89,7 @@ F 3 "" H 10350 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_Mini-rescue:L-RESCUE-Arduino_Mini L1
+L LoRaNode-rescue:L-RESCUE-Arduino_Mini-Arduino_Mini-rescue L1
 U 1 1 5A1D4D69
 P 10150 4700
 F 0 "L1" V 10340 4700 50  0000 C CNN
@@ -118,7 +118,7 @@ Wire Wire Line
 	10150 5150 10150 5100
 Connection ~ 10150 5100
 $Comp
-L Arduino_Mini-rescue:CONN_01X04-RESCUE-Arduino_Mini J1
+L LoRaNode-rescue:CONN_01X04-RESCUE-Arduino_Mini-Arduino_Mini-rescue J1
 U 1 1 5A1D6448
 P 7750 5450
 F 0 "J1" H 7828 5491 50  0000 L CNN
@@ -133,7 +133,7 @@ A4
 Text Label 7550 5400 2    60   ~ 0
 A5
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR012
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR012
 U 1 1 5A1D670C
 P 7300 5500
 F 0 "#PWR012" H 7300 5350 50  0001 C CNN
@@ -691,7 +691,7 @@ U 1 1 5B0CFB5D
 P 4000 4600
 F 0 "U3" H 4250 5000 50  0000 C CNN
 F 1 "TPS63031" H 3850 5000 50  0000 C CNN
-F 2 "Housings_SON:Texas_S-PVSON-N10" H 3850 4600 50  0001 C CNN
+F 2 "Package_SON:Texas_S-PWSON-N10" H 3850 4600 50  0001 C CNN
 F 3 "" H 3850 4600 50  0001 C CNN
 	1    4000 4600
 	1    0    0    -1  
@@ -897,7 +897,7 @@ Wire Wire Line
 Text Label 2800 4450 2    50   ~ 0
 VOUT
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR035
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR035
 U 1 1 5B163EAE
 P 5150 4400
 F 0 "#PWR035" H 5150 4250 50  0001 C CNN
@@ -913,7 +913,7 @@ Connection ~ 5150 4450
 Text Label 1550 5050 0    50   ~ 0
 VOUT
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR036
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR036
 U 1 1 5B16C097
 P 1900 5250
 F 0 "#PWR036" H 1900 5100 50  0001 C CNN
@@ -1060,7 +1060,7 @@ F 3 "" H 8950 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR013
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR013
 U 1 1 5B0B0C8E
 P 7700 1500
 F 0 "#PWR013" H 7700 1350 50  0001 C CNN
@@ -1071,7 +1071,7 @@ F 3 "" H 7700 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR038
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR038
 U 1 1 5B0C4FBD
 P 8500 750
 F 0 "#PWR038" H 8500 600 50  0001 C CNN
@@ -1082,7 +1082,7 @@ F 3 "" H 8500 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR039
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR039
 U 1 1 5B0C5655
 P 8950 750
 F 0 "#PWR039" H 8950 600 50  0001 C CNN
@@ -1173,7 +1173,7 @@ F 3 "" H 10850 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR045
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR045
 U 1 1 5B13CB93
 P 10850 3200
 F 0 "#PWR045" H 10850 3050 50  0001 C CNN
@@ -1253,7 +1253,7 @@ F 3 "" H 8050 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR048
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR048
 U 1 1 5B1C9B3E
 P 8050 750
 F 0 "#PWR048" H 8050 600 50  0001 C CNN
@@ -1332,7 +1332,7 @@ F 3 "" H 7350 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR050
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR050
 U 1 1 5B24C6EF
 P 7350 4500
 F 0 "#PWR050" H 7350 4350 50  0001 C CNN
@@ -1369,7 +1369,7 @@ F 3 "" H 7800 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR052
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR052
 U 1 1 5B24C704
 P 7800 4500
 F 0 "#PWR052" H 7800 4350 50  0001 C CNN
@@ -1426,7 +1426,7 @@ Text Label 5100 6700 2    60   ~ 0
 Text Label 5100 6800 2    50   ~ 0
 RES
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR055
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR055
 U 1 1 5B2D22EF
 P 5650 6550
 F 0 "#PWR055" H 5650 6400 50  0001 C CNN
@@ -1482,7 +1482,7 @@ F 3 "~" H 6350 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR058
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR058
 U 1 1 5B309256
 P 6650 6700
 F 0 "#PWR058" H 6650 6550 50  0001 C CNN
@@ -1596,7 +1596,7 @@ SDA
 Text Label 1500 6400 0    50   ~ 0
 SCL
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR02
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR02
 U 1 1 5B0862C7
 P 1900 5900
 F 0 "#PWR02" H 1900 5750 50  0001 C CNN
@@ -1780,7 +1780,7 @@ F 3 "" H 9400 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Arduino_Mini-rescue:+3.3V-RESCUE-Arduino_Mini #PWR06
+L LoRaNode-rescue:+3.3V-RESCUE-Arduino_Mini-Arduino_Mini-rescue #PWR06
 U 1 1 5B0C2071
 P 9400 750
 F 0 "#PWR06" H 9400 600 50  0001 C CNN
@@ -1930,5 +1930,5 @@ F 3 "~" H 7100 3125 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 875  -175 0    168  ~ 34
-Change TPS63031 footprint\nShorten last antenna segment\nDuplicate the antenna layout on second layer\nChange ground symbols\n
+ToDo:\nChange ground symbols\n
 $EndSCHEMATC
