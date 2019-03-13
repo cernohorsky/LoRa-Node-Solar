@@ -1,5 +1,5 @@
 # loranode
-RFM95W, ATMEGA328P,  TPS63031, MCP7381
+#RFM95W, #ATMEGA328P,  #TPS63031, #MCP7381, #Arduino
 
 ToDo:
 Change TPS63031 footprint<br>
