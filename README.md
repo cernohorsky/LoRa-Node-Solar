@@ -8,6 +8,6 @@ It's necessary to <b>burn bootloader with ISP before RFM95W module is soldered</
 Change ground symbols<br>
 Create BOM<br>
 
-<img src="https://raw.githubusercontent.com/cernohorsky/loranode/master/LoRaNode.jpg" />
+<img src="https://raw.githubusercontent.com/cernohorsky/loranode/master/LoRaNode-View.jpg" />
 
 #RFM95W, #ATMEGA328P,  #TPS63031, #MCP7381, #Arduino
